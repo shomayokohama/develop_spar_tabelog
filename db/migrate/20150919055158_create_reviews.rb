@@ -3,6 +3,8 @@ class CreateReviews < ActiveRecord::Migration
     create_table :reviews do |t|
       t.integer :rate, null: false
       t.text :body, null: false
+      t.references :restaurant, index: true, foreign_key: true
+      t.references :user, index: true, foreign_key: true
 
       t.timestamps null: false
     end

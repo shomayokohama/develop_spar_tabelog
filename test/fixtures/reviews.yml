@@ -3,7 +3,11 @@
 one:
   rate: 1
   body: MyText
+  restaurant_id: 
+  user_id: 
 
 two:
   rate: 1
   body: MyText
+  restaurant_id: 
+  user_id: 

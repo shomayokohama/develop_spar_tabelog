@@ -1,0 +1,9 @@
+<%= form_for([@restaurant, @review]) do |f| %>
+  <div class="form-group">
+    <%= f.label :rate, '点数（１〜５点満点）' %><br>
+    <%= f.text_area :rate, class: "form-control" %>
+    <%= f.label :body, 'レビュー（食事の感想を投稿してください。）' %><br>
+    <%= f.text_area :body, class: "form-control" %>
+    </div>
+    <%= f.submit %>
+<% end %>

@@ -1,0 +1,14 @@
+<div class="row">
+  <div class="col-lg-12">
+    <h1>ニューレビュー登録</h1>
+    <ul>
+      <li>店名：<%= @restaurant.title %></li>
+      <li>電話番号：<%= @restaurant.tel %></li>
+      <li>住所：<%= @restaurant.address %></li>
+      <li>ホームページ：<%= @restaurant.url %></li>
+    </ul>
+
+    <hr>
+    <%= render 'form' %>
+  </div>
+</div>
